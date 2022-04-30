@@ -7,3 +7,16 @@
 @use 'components/testimonial';
 
 @use 'components/rating';
+
+@media (max-width: 374px) {
+    .body {
+
+        &::before {
+            content: "";
+        }
+
+        &::after {
+            content: "";
+        }
+    }
+}

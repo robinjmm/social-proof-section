@@ -8,6 +8,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        z-index: -1;
     }
 
     &::after {
@@ -15,22 +16,26 @@
         position: absolute;
         bottom: 0;
         right: 0;
+        z-index: -1;
     }
 }
 
 
-// Header section
-header {
+header,
+main {
     width: 85%;
-    max-width: 1100px;
     margin: 0 auto;
+}
+
+
+header {
     text-align: center;
     margin-bottom: rem(40px);
 
     .heading {
         font-size: rem(35px);
         color: $primary;
-        width: 14ch;
+        max-width: 14ch;
         margin: 0 auto;
         font-weight: 700;
     }
@@ -39,20 +44,28 @@ header {
         color: $dark-gray-magenta;
         line-height: 1.5;
         font-weight: 500;
-        margin: 1.5em 0;
+        margin: 1.5em auto;
+        padding: 0 1em;
+        max-width: rem(400px);
+    }
+
+    @media (min-width: 768px) {
+        .heading {
+            font-size: rem(50px);
+        }
     }
 }
 
-
-// Main section
-main {
-    width: 85%;
-    max-width: 1100px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-// Rating section
 .rating-section {
     margin-bottom: rem(50px);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
