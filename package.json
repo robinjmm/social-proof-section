@@ -1,0 +1,24 @@
+{
+  "name": "social-proof-section",
+  "version": "1.0.0",
+  "description": "A challenge to build a website's social proof section from Frontendmentor.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/app.scss:css/index.css",
+    "prod": "sass --style=compressed scss/app.scss:css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinjmm/social-proof-section.git"
+  },
+  "author": "robinjmm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinjmm/social-proof-section/issues"
+  },
+  "homepage": "https://github.com/robinjmm/social-proof-section#readme",
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
+}
