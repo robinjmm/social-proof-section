@@ -1,0 +1,19 @@
+@use '../variables'as *;
+
+.rating {
+    background: $light-gray-magenta;
+    margin-bottom: 1rem;
+    padding: 1em 3em;
+    border-radius: 0.5em;
+
+    &__text {
+        font-weight: 700;
+        color: $primary;
+        margin: 0;
+    }
+
+    &__star {
+        margin-right: 0.1em;
+        margin-bottom: 0.3em;
+    }
+}

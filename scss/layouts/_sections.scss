@@ -1,0 +1,58 @@
+@use '../variables'as *;
+
+.body {
+    position: relative;
+
+    &::before {
+        content: url('../../images/bg-pattern-top-mobile.svg');
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &::after {
+        content: url('../../images/bg-pattern-bottom-mobile.svg');
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+
+// Header section
+header {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: rem(40px);
+
+    .heading {
+        font-size: rem(35px);
+        color: $primary;
+        width: 14ch;
+        margin: 0 auto;
+        font-weight: 700;
+    }
+
+    .sub-heading {
+        color: $dark-gray-magenta;
+        line-height: 1.5;
+        font-weight: 500;
+        margin: 1.5em 0;
+    }
+}
+
+
+// Main section
+main {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+// Rating section
+.rating-section {
+    margin-bottom: rem(50px);
+}
