@@ -1,22 +1,13 @@
-@use 'reset';
+@use 'base/reset';
 
-@use 'base';
+@use 'base/defaults';
 
-@use 'layouts/sections';
+@use 'base/typography';
 
 @use 'components/testimonial';
 
 @use 'components/rating';
 
-@media (max-width: 374px) {
-    .body {
+@use 'layouts/layouts';
 
-        &::before {
-            content: "";
-        }
-
-        &::after {
-            content: "";
-        }
-    }
-}
+@use 'layouts/media-queries';
