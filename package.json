@@ -1,12 +1,12 @@
 {
   "name": "social-proof-section",
   "version": "1.0.0",
-  "description": "A challenge to build a website's social proof section from Frontendmentor.io",
-  "main": "index.js",
+  "description": "My solution for the Social Proof Section challenge from Frontendmentor.io",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch scss/app.scss:css/index.css",
-    "prod": "sass --style=compressed scss/app.scss:css/index.css"
+    "dev": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,11 @@
     "url": "https://github.com/robinjmm/social-proof-section/issues"
   },
   "homepage": "https://github.com/robinjmm/social-proof-section#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  },
   "devDependencies": {
-    "sass": "^1.51.0"
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
   }
 }

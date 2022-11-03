@@ -1,10 +1,10 @@
-@use '../base/variables'as *;
+@use "../base/variables" as *;
 
 .body {
     position: relative;
 
     &::before {
-        content: url('../../images/bg-pattern-top-mobile.svg');
+//        content: url('../../assets/images/bg-pattern-top-mobile.svg');
         position: absolute;
         top: 0;
         left: 0;
@@ -12,7 +12,7 @@
     }
 
     &::after {
-        content: url('../../images/bg-pattern-bottom-mobile.svg');
+//        content: url('../../assets/images/bg-pattern-bottom-mobile.svg');
         position: absolute;
         bottom: 0;
         right: 0;

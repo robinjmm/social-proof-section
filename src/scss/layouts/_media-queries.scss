@@ -1,4 +1,4 @@
-@use '../base/variables'as *;
+@use "../base/variables" as *;
 
 @media (max-width: 374px) {
 
@@ -10,11 +10,11 @@
 
 @media (min-width: 768px) {
     .body::before {
-        content: url('../../images/bg-pattern-top-desktop.svg');
+//        content: url('./../../assets/images/bg-pattern-top-desktop.svg');
     }
 
     .body::after {
-        content: url('../../images/bg-pattern-bottom-desktop.svg');
+//        content: url('./../../assets/images/bg-pattern-bottom-desktop.svg');
     }
 }
 
