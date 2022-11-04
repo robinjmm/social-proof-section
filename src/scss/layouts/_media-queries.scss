@@ -10,15 +10,17 @@
 
 @media (min-width: 768px) {
     .body::before {
-//        content: url('./../../assets/images/bg-pattern-top-desktop.svg');
+        // use image file path suggested by parcel bundler
+        content: url('../assets/images/bg-pattern-top-desktop.svg');
     }
 
     .body::after {
-//        content: url('./../../assets/images/bg-pattern-bottom-desktop.svg');
+        // use image file path suggested by parcel bundler
+        content: url('../assets/images/bg-pattern-bottom-desktop.svg');
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
     .body {
         height: 100vh;
     }

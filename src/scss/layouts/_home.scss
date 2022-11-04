@@ -4,7 +4,8 @@
     position: relative;
 
     &::before {
-//        content: url('../../assets/images/bg-pattern-top-mobile.svg');
+        // use image file path suggested by parcel bundler
+        content: url('../assets/images/bg-pattern-top-mobile.svg');
         position: absolute;
         top: 0;
         left: 0;
@@ -12,7 +13,8 @@
     }
 
     &::after {
-//        content: url('../../assets/images/bg-pattern-bottom-mobile.svg');
+        // use image file path suggested by parcel bundler
+        content: url('../assets/images/bg-pattern-bottom-mobile.svg');
         position: absolute;
         bottom: 0;
         right: 0;
