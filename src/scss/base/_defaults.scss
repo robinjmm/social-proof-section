@@ -1,10 +1,16 @@
 @use "variables" as *;
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
     margin: 0;
     font-size: rem(15px);
     font-family: $primary-font;
-    padding: 10vh 0;
+    padding: rem(80px) 0;
 }
 
 p {

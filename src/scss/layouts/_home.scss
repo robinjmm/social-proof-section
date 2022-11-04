@@ -1,6 +1,6 @@
 @use "../base/variables" as *;
 
-.body {
+body {
     position: relative;
 
     &::before {
@@ -26,6 +26,11 @@ main {
     width: min(85%, 1100px);
     margin: 0 auto;
     text-align: center;
+}
+
+
+footer {
+    margin-top: rem(60px);
 }
 
 .section-header {
