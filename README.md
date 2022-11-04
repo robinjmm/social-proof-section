@@ -6,7 +6,7 @@
 - [Site Preview](https://robinjmm-social-section.vercel.app/)
 
 ## About
-This is my solution for the Social Proof Section challenge from [Frontendmentor.io](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
+This is my solution for the **Social Proof Section** challenge from [Frontendmentor.io](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
 
 ## User Stories
 The user should be able to:
